@@ -1,29 +1,48 @@
 # Task 1
 
-a = int(-1.6)
-b = int(2.99)
+a = -1.6
+b = 2.99
 
-print(a, b)
+
+def number_converter(number):
+    return int(number)
+
+
+print(number_converter(a))
+print(number_converter(b))
 
 # Task 2
 
 initial_string = 'www.my_site.com#about'
-replaced_string = initial_string.replace('#', '/')
 
-print("Replaced string:", replaced_string)
+
+def symbol_replacer(string):
+    return string.replace('#', '/')
+
+
+print(symbol_replacer(initial_string))
 
 # Task 3
 
 original_string = 'stroka'
-new_string = original_string + 'ing'
 
-print("New string:", new_string)
+
+def add_ing(string):
+    return string + 'ing'
+
+
+print(add_ing(original_string))
 
 # Task 4
 
 original_name = 'Ivanou Ivan'
-changed_name = original_name.split()[1] + " " + original_name.split()[0]
-print("New name:", changed_name)
+
+
+def replace_name(name):
+    return name.split()[1] + " " + name.split()[0]
+
+
+print(replace_name(original_name))
 
 
 # Task 5
@@ -65,10 +84,15 @@ print(test_list[1])
 employment = "employment"
 employ = "employ"
 
-if employ in employment:
-    print(f"'{employ}' is included in '{employment}'")
-else:
-    print(f"'{employ}' is not included in '{employment}'")
+
+def check_if_included(first, second):
+    if first in second:
+        print(f"'{first}' is included in '{second}'")
+    else:
+        print(f"'{first}' is not included in '{second}'")
+
+
+check_if_included(employ, employment)
 
 # Task 9
 
@@ -79,7 +103,13 @@ print(x[3:16:3])
 # Task 10
 
 list_of_numbers = [1, 5, 2, 9, 2, 9, 1]
-unique_number = set(list_of_numbers)
-for num in unique_number:
-    if list_of_numbers.count(num) == 1:
-        print(num)
+
+
+def check_if_unique(lst):
+    unique_number = set(lst)
+    for num in unique_number:
+        if list_of_numbers.count(num) == 1:
+            print(num)
+
+
+check_if_unique(list_of_numbers)
