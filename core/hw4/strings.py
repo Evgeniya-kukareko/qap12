@@ -17,8 +17,6 @@ def print_str_data(string):
         return result
 
 
-print(print_str_data(str_to_check))
-
 second_str = "communication"
 
 
@@ -38,8 +36,6 @@ def print_second_str(string):
         return result
 
 
-print(print_second_str(second_str))
-
 third_str = "my name is name"
 
 
@@ -54,6 +50,13 @@ def change_second_name(string, name):
         return final_str
 
 
-print(change_second_name(third_str, "Jane"))
-
 test_str = "Hello world!"
+
+
+def check_str(string):
+    w_position = string.index("w")
+    l_count = string.count("l")
+    start_with_hello = string.startswith("Hello")
+    end_with_qwe = string.endswith("qwe")
+
+    return w_position, l_count, start_with_hello, end_with_qwe
