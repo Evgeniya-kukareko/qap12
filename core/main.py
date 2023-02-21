@@ -17,3 +17,8 @@ print(check_str("Hello world!"))
 print(print_second_element(["Taylor", "12345", "Brown", "Miller"]))
 print(change_last_element(["56789", "Wilson", "Roberts"]))
 print(add_element_to_list(["56789", "Wilson", "Roberts"], "123", "New"))
+
+print(list_to_string(["I", "love", "arrays", "they", "are", "my", "favorite"]))
+print(list_modification([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 100, 9))
+print(combine_dicts({"a": 1, "b": 2, "c": 3}, {"c": 3, "d": 4, "e": 5}, {}))
+print(letter_counter("a" * 9000 + "b" * 1000))
