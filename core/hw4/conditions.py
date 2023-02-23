@@ -5,8 +5,6 @@ def add_one(number):
         return "Error"
 
 
-# print(add_one(1.3))
-
 def positive_numbers_counter(*args):
     counter = 0
     for i in args:
@@ -14,8 +12,6 @@ def positive_numbers_counter(*args):
             counter += 1
     return counter
 
-
-# print(positive_numbers_counter(1, 3, -2))
 
 def days_in_year(year):
     if year % 4 == 0:
@@ -25,8 +21,6 @@ def days_in_year(year):
     else:
         return 365
 
-
-# print(days_in_year(1300))
 
 def day_of_the_week(num):
     if num == 1:
@@ -46,4 +40,17 @@ def day_of_the_week(num):
     else:
         return "Error"
 
-# print(day_of_the_week(7))
+
+def weight_converter(index, weight):
+    if index == 1:
+        return weight
+    elif index == 2:
+        return weight / 1000000
+    elif index == 3:
+        return weight / 1000
+    elif index == 4:
+        return weight * 1000
+    elif index == 5:
+        return weight * 100
+    else:
+        return "Error"
