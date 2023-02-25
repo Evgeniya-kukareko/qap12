@@ -4,3 +4,5 @@ __pycache__/
 *$py.class
 .DS_Store
 core/.DS_Store
+core/hw6/*.txt
+core/hw6/*.bin
