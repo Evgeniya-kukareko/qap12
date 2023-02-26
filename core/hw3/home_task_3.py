@@ -8,8 +8,8 @@ def number_converter(number):
     return int(number)
 
 
-print(number_converter(a))
-print(number_converter(b))
+# print(number_converter(a))
+# print(number_converter(b))
 
 # Task 2
 
@@ -20,7 +20,7 @@ def symbol_replacer(string):
     return string.replace('#', '/')
 
 
-print(symbol_replacer(initial_string))
+# print(symbol_replacer(initial_string))
 
 # Task 3
 
@@ -31,7 +31,7 @@ def add_ing(string):
     return string + 'ing'
 
 
-print(add_ing(original_string))
+# print(add_ing(original_string))
 
 # Task 4
 
@@ -42,7 +42,7 @@ def replace_name(name):
     return name.split()[1] + " " + name.split()[0]
 
 
-print(replace_name(original_name))
+# print(replace_name(original_name))
 
 
 # Task 5
@@ -51,7 +51,7 @@ def remove_spaces(input_string):
     return input_string.strip()
 
 
-print(remove_spaces('  A string with spaces.   '))
+# print(remove_spaces('  A string with spaces.   '))
 
 # Task 6
 
@@ -72,12 +72,12 @@ def add_class(name, class_with_letter, students):
 
 
 add_class(school, "11б", 29)
-print(school)
+# print(school)
 
 # Task 7
 
 test_list = ["First element", "Second element"]
-print(test_list[1])
+# print(test_list[1])
 
 # Task 8
 
@@ -89,13 +89,13 @@ def check_if_included(first, second):
     return first in second
 
 
-print(check_if_included(employ, employment))
+# print(check_if_included(employ, employment))
 
 # Task 9
 
 x = "My name is Agent Smith"
-print(x[1])
-print(x[3:16:3])
+# print(x[1])
+# print(x[3:16:3])
 
 # Task 10
 
@@ -108,5 +108,4 @@ def check_if_unique(lst):
         if list_of_numbers.count(num) == 1:
             print(num)
 
-
-check_if_unique(list_of_numbers)
+# check_if_unique(list_of_numbers)
