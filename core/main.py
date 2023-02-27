@@ -1,5 +1,6 @@
 from core.hw3 import *
 from core.hw4 import *
+from core.hw7 import *
 
 print(number_converter(-5.6))
 print(symbol_replacer('www.my_site.com#about'))
@@ -46,3 +47,15 @@ print(mult_sum(4))
 print(count_s(105, 500878))
 print(sum_and_digits(503))
 print(age_counter(50,3))
+
+greeting_name("Jane")
+print(greeting_names(["Helen", "Sharon", "Laura", "David"]))
+
+positive_result = positive_numbers(numbers)
+
+for number in positive_result:
+   print(number)
+
+print(count_letters_in_str("the quick brown fox jumps over the lazy dog"))
+print(caesar_cipher_encoder("This is a test string", 2))
+print(caesar_cipher_decoder("Ymnx nx f yjxy xywnsl", 5))
