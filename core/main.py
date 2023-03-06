@@ -1,6 +1,7 @@
 from core.hw3 import *
 from core.hw4 import *
 from core.hw7 import *
+from core.hw8 import *
 
 print(number_converter(-5.6))
 print(symbol_replacer('www.my_site.com#about'))
@@ -59,3 +60,14 @@ for number in positive_result:
 print(count_letters_in_str("the quick brown fox jumps over the lazy dog"))
 print(caesar_cipher_encoder("This is a test string", 2))
 print(caesar_cipher_decoder("Ymnx nx f yjxy xywnsl", 5))
+
+print(add_two_symbols("3", 5))
+print(add_two_symbols(5, 5))
+print(add_two_symbols("a", "b"))
+
+print(add_three_symbols(5, 6, 7))
+print(add_three_symbols("3", 5, 0))
+print(add_three_symbols(0.1, 0.2, 0.4))
+
+print(lexicographic_asc(1, 2, 3))
+
